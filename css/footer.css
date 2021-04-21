@@ -1,0 +1,279 @@
+/* ----------- footer ------------ */
+
+.container-footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://x3jme3vmctf3dmlkql5tzx17-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/Diplomado-reposteria-y-pasteleria-460x280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.container-footer .filter .row:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    width: 35%;
+    padding: 10px 50px;
+    margin-left: 70px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
+    padding: 9px 20px;
+    font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
+    color: #1c9bc2;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
+    color: #e39ba2;
+    cursor: pointer;
+}
+
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    width: 25%;
+    padding: 10px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
+    padding: 10px 10px;
+    font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
+    color: #1c9bc2;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    font-size: 1.7rem;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    background-color: #e39ba2;
+    color: azure;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
+    background-color:#1c9bc2;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(3){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(3) img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.container-footer .filter .row:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020202;
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: inherit;
+}
+/* ----------- end footer ------------ */
+
+/*-----768px----*/
+@media screen and (min-width: 500px) and (max-width: 768px) {
+
+    header nav ol li {
+        font-size:15px;
+    
+    }
+
+    .container .filter .col-60 h2 {
+        font-size: 45px;
+ }
+
+ .container .filter .col-60 p {
+        font-size: 25px;
+ }
+
+ .container .filter .col-60 button {
+     width:300px;
+     font-size: 25px;
+     margin-top: 30px;
+
+ }
+header nav ol li {
+        font-size:25px;
+    
+    }
+
+    .container .filter .col-60 h2 {
+        font-size: 45px;
+ }
+
+ .container .filter .col-60 p {
+        font-size: 25px;
+ }
+
+ .container .filter .col-60 button {
+     width:300px;
+     font-size: 25px;
+     margin-top: 30px;
+
+ }
+
+}
+/*-----425px----*/
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    header nav ol {
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+        padding-left: 0;
+        
+    }
+    header nav ol li {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    header nav {
+        height: 40vh;
+    }
+    .container{
+        height: 60vh;
+    }
+    .container .filter{
+        height: 60vh;
+        margin-top:160px
+    }
+
+    .container .filter .col-60 h2 {
+        font-size: 25px;
+    }
+
+    .container .filter .col-60 p {
+        font-size: 20px;
+    }
+
+    .container .filter .col-60 button {
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .container-main .row{
+        flex-direction: column;
+    }
+    .container-main .row .col-30{
+        width: 80%;
+    }
+
+    .container-main .row .col-30 h2{
+        font-size: 25px;
+    }
+
+    .container-main .row .col-30 p{
+        font-size: 20px;
+    }
+
+    footer .row .col-30:nth-child(1) ul li{
+        font-size:20px;
+    }
+    footer .row .col-30:nth-child(2) ul li{
+        font-size: 20px;
+    }
+
+    footer .row .col-30:nth-child(3) p{
+        font-size: 20px;
+    }
+
+    footer .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .row .col-30{
+        padding-left: 0;
+        width: 100%;
+    }
+
+    footer{
+        padding-left: 0;
+    }
+
+}
